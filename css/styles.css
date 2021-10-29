@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+        margin:0;
+        padding:0;
+        border:0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+.alert {
+    margin-top: 15px;
+    position: absolute;
+    display:none;        
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 350px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.sectionCenter{
+    margin-top:15px;
+    
+}
+.containerBinary{
+
+    border-color: rgba(44, 44, 44, 0.1);
+    border-style:solid;
+    border-width: 1px;
+    
+    border-radius: 12px;
+    padding: 10px;
+    margin-top:15px;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);	
+
+}
+.containerBinary h1{
+
+}
+
+.inputBinary{
+    text-align: center;
+    margin-top:15px;
+    font-family: inherit;
+    width: 50%;
+    border: 0;
+    border-bottom: 2px solid #0191;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+    
+
+.buttonConverter{
+margin-top:15px;
+
+}
+
+
+
+.buttonConverter {
+  margin-top:30px;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+     min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.buttonConverter:hover,
+.buttonConverter:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.buttonConverter:hover {
+  transform: translateY(-1px);
+}
+
+.buttonConverter:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+
+
+.containerBinary h3{
+    margin-top:15px;
+}
+.containerBinary p{
+    margin-top:15px;
+}
+
+@media (max-width:540px) {
+    body{
+        padding-inline: 10px;
+    }
+}

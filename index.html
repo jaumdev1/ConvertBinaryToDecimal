@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="alert" id="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Você digitou um número não binário!
+      </div>
+    <section class="sectionCenter">
+        <div class="containerBinary">
+            <h1>Transforme seu número binário em decimal</h1>
+            <form action="convert">
+            <input type="number" id="binary" class="inputBinary" placeholder="Binário"/>
+          
+            </form>
+             <button type="button" onclick="Converter(this)" class="buttonConverter" >Converter</button>
+             <h3>Decimal:</h3>
+             <p id="decimal" class="decimal">0</p>
+        </div>
+
+    </section>
+</body>
+<script src="js/scripts.js">
+  
+</script>
+</html>
